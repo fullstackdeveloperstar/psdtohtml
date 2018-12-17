@@ -1,0 +1,28 @@
+@media (max-width: 767.98px) {
+
+	.news-content .text {width: 100%;}
+	.news-content .image {
+		margin:0 auto;
+		margin-top: 50px;
+	}
+	.news-title {padding-right: 50px;}
+	.news-title, .date {font-size: 20px; }
+	.news-content .text p, .news-content .text a {font-size: 16px;}
+	.news-content .text p {padding-right: 0;}
+
+}
+
+@media (max-width: 575.98px) { 
+
+	.date {
+		margin-right: 20px; 
+		border-left-width: 15px!important;
+		padding-left: 10px;
+	}
+	.news-title, .date {font-size: 16px;}
+	.news-title {padding-right: 30px;}
+	.show-more img {width: 20px;}
+	
+
+}
+

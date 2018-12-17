@@ -1,0 +1,120 @@
+#page-title.press-release-background {
+	background: url(../images/press-bg.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+#press-release {
+	padding:100px 0;
+}
+
+.press-month {margin-top: 50px;}
+
+
+.press-month-title {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.news-item {
+	border-top: 1px solid #b5b5b5;
+	border-bottom: 1px solid #b5b5b5;
+	padding:10px 0;
+	margin-top: 30px;
+}
+
+.news-header {display: flex;position: relative; cursor: pointer;}
+
+
+.news-item p {margin:0;}
+
+.date {
+	font-size:26px;
+	color:#858585;
+	font-weight: 300;
+	margin-right: 50px;
+	padding-left: 25px;
+}
+
+.date.border-green {border-left: 25px solid #74b511}
+.date.border-orange {border-left: 25px solid #e49100}
+.date.border-lightorange {border-left: 25px solid #ff7900}
+.date.border-darkpurple {border-left: 25px solid #941b76}
+.date.border-red {border-left: 25px solid #e4324c}
+.date.border-lightpurple {border-left: 25px solid #a933d3}
+.date.border-blue {border-left: 25px solid #00587d}
+.date.border-pink {border-left: 25px solid #f40067}
+.date.border-lightblue {border-left: 25px solid #0065b5}
+.date.border-lightgreen {border-left: 25px solid #9dd100}
+.date.border-brown {border-left: 25px solid #b54a1f}
+
+
+
+.date span{
+	display: block;
+	text-align: right;
+	font-weight: bold;
+	color:#004a84;
+}
+
+.news-title {
+	font-size: 26px;
+	color:#282828;
+	padding-right: 100px;
+	transition: 0.2s;
+}
+
+
+.news-title.active {
+	color: #004a84;
+	font-weight: bold;
+}
+
+.show-more {
+	position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 200ms all;
+}
+
+.show-more.rotated {
+	transform: translateY(-50%) rotate(180deg);
+}
+
+.show-more img {
+	width: 30px;
+	object-fit: contain;
+}
+
+
+.news-content {
+	display: flex;
+	padding: 80px 0;
+	display: none;
+}
+
+.news-content .text p {
+	font-size:22px;
+	color:#282828;
+	padding-right: 50px;
+}
+
+
+.news-content .text {width: calc(100% - 300px)}
+.news-content .image {width: 300px}
+
+.news-content .text a {
+	display: block;
+	text-align: right;
+	padding-right: 50px;
+	margin-top: 50px;
+	color: #0065b5;
+	font-weight: bold;
+	font-size:18px;
+}
+.news-content .text a img {
+	margin-left: 15px;
+	width: 25px;
+}
