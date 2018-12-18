@@ -1,0 +1,73 @@
+@media (max-width: 767.98px) {
+
+	.news-content .text {width: 100%;}
+	.news-content .image {
+		margin:0 auto;
+		margin-top: 50px;
+	}
+	.news-title {padding-right: 50px;}
+	.news-title, .date {font-size: 20px; }
+	.news-content .text p, .news-content .text a {font-size: 16px;}
+	.news-content .text p {padding-right: 0;}
+
+	.career-box {display: block;}
+	.career-box .description {width: 100%; font-size: 18px;}
+	.career-box .image {margin:0 auto; margin-top: 40px;}
+	.career-box.right .description {padding-right: 0; margin-top: 30px;}
+	.career-box.left .description {padding-left: 0; margin-top: 30px}
+
+	.career-box .top-title.right {
+		left:0;
+		right: 0;
+		text-align: center;
+	}
+
+	.career-box .top-title.left {
+		left:0;
+		right: 0;
+		text-align: center;
+	}
+
+
+	.contact-info-flex {
+		display: block;
+	}
+	
+	#contact-informations .left , #contact-informations .right {padding:0;}
+
+	#contact-informations .right  {margin-top: 50px;}
+
+	.contact-form-flexer {display: block;}
+	.contact-form-flexer .email-contacts, .contact-form-flexer .form {width: 100%;}
+	.email-contacts {padding-left: 0; margin-top: 50px;}
+
+
+
+
+}
+
+@media (max-width: 575.98px) { 
+
+	.date {
+		margin-right: 20px; 
+		border-left-width: 15px!important;
+		padding-left: 10px;
+	}
+	.news-title, .date {font-size: 16px;}
+	.news-title {padding-right: 30px;}
+	.show-more img {width: 20px;}
+	
+	.career-box {padding: 20px}
+
+	.career-box .top-title.left {font-size: 14px }
+	.career-box .image {min-width: 200px;}
+	#apply-today a {padding:15px 25px;}
+
+	.email-contact {font-size: 16px;}
+	.email-contact img {height: 50px; width: 50px; padding:10px;}
+	.input-two {display: block;}
+	.input-two input:nth-child(1) {margin-right: 0;}
+	.input-two input:nth-child(2) {margin-left: 0;}
+
+}
+
