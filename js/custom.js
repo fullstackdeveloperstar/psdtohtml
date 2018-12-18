@@ -61,12 +61,17 @@ function magnify(imgID, zoom) {
   h = glass.offsetHeight / 2;
 
   /* Execute a function when someone moves the magnifier glass over the image: */
+
+
+
+
   glass.addEventListener("mousemove", moveMagnifier);
   img.addEventListener("mousemove", moveMagnifier);
 
   /*and also for touch screens:*/
   glass.addEventListener("touchmove", moveMagnifier);
   img.addEventListener("touchmove", moveMagnifier);
+
   function moveMagnifier(e) {
     var pos, x, y;
     /* Prevent any other actions that may occur when moving over the image */
@@ -161,13 +166,13 @@ $("#cartplus").on("click",function(){
 //  MAIN PAGE - CLICK PLAY ON VIDEO
 
 
-$("#videos-list .playvideo").on("click",function() {
+$("#videos-list .playvideo").on("click",function(ev) {
 
   $(this).fadeOut();
   $(this).parent().find(".thumb").fadeOut();
-  $(this).parent().find(".closevideo").fadeIn();
-  $(this).parent().find("video").get(0).play();
+  $(this).parent().find(".closevideo").fadeIn(); 
   $(this).parent().addClass("playing");
+
 
 })
 
@@ -176,7 +181,7 @@ $(".closevideo").on("click",function(){
   $(this).fadeOut();
   $(this).parent().find(".thumb").fadeOut();
   $(this).parent().removeClass("playing");
-  $(this).parent().find("video").get(0).pause();
+    
 })
 
 
