@@ -1160,3 +1160,59 @@ footer p{
 }
 .navbar-default .navbar-toggle {top:22px;}
 
+
+
+/*** ***/
+#footer {
+	background:#0065b5;
+	padding:20px 0px 50px 0px;
+}
+
+#footer h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#footer ul {
+	list-style:none;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#footer ul li {
+    margin-bottom: 10px;
+}
+
+#footer li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight:300;
+}
+
+#footer .social ul li {
+	display:inline-block;
+    margin-right: 10px;
+}
+
+
+/*** ***/
+#copyright {
+	background:#004a84;
+	padding:20px 0px;
+}
+
+#copyright p {
+    color: #fff;
+    font-size: 17px;
+    font-weight:300;
+    margin: 0px;
+}
+
+
+@media (max-width:480px){ 
+	#footer {text-align: center}
+}

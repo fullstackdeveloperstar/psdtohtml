@@ -1351,7 +1351,10 @@ video {
 #videos-list .video {
 	position: relative;
 	transition: 600ms all;
+
 }
+
+.youtube-video {min-height: 200px}
 
 #videos-list .thumb {
 	position: absolute;
