@@ -173,9 +173,9 @@ a, a:hover, a:focus {
 	display:inline-block;
 	background:#2196f3;
 	color:#fff;
-	padding:10px 20px;
+	padding:10px 25px;
 	border-radius:25px;
-	font-size:12px;
+	font-size:15px;
 	margin-top:40px;
 }
 
@@ -260,7 +260,7 @@ img.fullwidth {
 }
 
 #info .sp {
-	padding:0px 30px;
+	padding:0px 100px 0 30px;
 }
 
 #info .title {
@@ -458,7 +458,7 @@ img.fullwidth {
 
 #testimonials p {
 	color:#7c7c7c;
-	font-size:16px;
+	font-size:20px;
 	font-weight:300;
 	margin-top:30px;
 	margin-bottom:40px;
@@ -1444,11 +1444,24 @@ video {
 
 }
 
-
-
 @media only screen and (max-width: 580px) {
 	.videos-grid {
 		grid-template-columns: 1fr;
 	}
 	.bx-pager {display: none}
+}
+
+
+.adjust-section{
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.adjust-section .align-video{
+	height: 100%;
+}
+
+.quote-image{
+	width: 35px;
 }
