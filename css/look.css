@@ -1490,7 +1490,7 @@ li.rev_higl{
 .about_company_iner{
 	position:relative;/*
 	background:#eeeeee;*/
-	background:#00008b;
+	background:darkblue;
 	padding:75px 0px 75px 0px;
 }
 .about_company_iner ul{
@@ -3191,4 +3191,9 @@ footer p{
 
 @media (max-width:480px){ 
 	#footer {text-align: center}
+}
+
+
+.logo-black-lookwatch{
+	width: 30%;
 }
