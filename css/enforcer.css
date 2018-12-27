@@ -767,7 +767,7 @@ h1{
 	content:"";
 	height:25px;
 	width:5px;
-	background:#002d42;
+	/*background:#002d42;*/
 }
 .section5-box p{
 	position:relative;

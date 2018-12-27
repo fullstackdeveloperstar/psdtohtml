@@ -98,17 +98,18 @@
 .news-content .text p {
 	font-size:22px;
 	color:#282828;
-	padding-right: 50px;
+	/* padding-right: 50px; */
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
-
-.news-content .text {width: calc(100% - 300px)}
-.news-content .image {width: 300px}
+.news-content .text {width: 100%;}
+/* .news-content .image {width: 300px} */
 
 .news-content .text a {
-	display: block;
+	/* display: block; */
 	text-align: right;
-	padding-right: 50px;
+	/* padding-right: 50px; */
 	margin-top: 50px;
 	color: #0065b5;
 	font-weight: bold;
@@ -119,7 +120,9 @@
 	width: 25px;
 }
 
-
+.news-content .text ul li{
+	font-size: 22px;
+}
 
 
 
