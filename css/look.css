@@ -126,7 +126,7 @@ h1{
 	line-height:600px;
 	width:100%;
 	position:relative;
-	padding:0px 10%;
+	/*padding:0px 10%;*/
 }
 .product_tab .main-img .stretch{
 	position:absolute;
@@ -135,8 +135,8 @@ h1{
 	line-height:normal;
 }
 .product_tab .main-img img{
-	max-width:500px;
-	width:80%;
+	/*max-width:500px;*/
+	/*width:80%;*/
 	display:inline-block;
 	vertical-align:middle;
 }
