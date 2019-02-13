@@ -1328,17 +1328,17 @@ li.rev_higl{
 	padding:15% 0px;
 	text-align:left;
 }
-.banner-left h2{
+.banner-left h2, .banner-left h1{
 	color:#282828;
 	font-size:70px;
 	font-weight:900;
 	margin:0px;
 	padding:0px;
 }
-.banner-left h2 .span1{
+.banner-left h2 .span1, .banner-left h1 .span1{
 	color:#ffa800;
 }
-.banner-left h2 .span2{
+.banner-left h2 .span2, .banner-left h1 .span2{
 	color:#2196f3;
 }
 .banner-left p{
@@ -1468,15 +1468,16 @@ li.rev_higl{
 	background:#FFF;
 	padding:75px 0px;
 }
-.about_company h1{
+.about_company h1, .about_company h2{
 	color:#000;
 	font-weight:300;
 	margin:0px 0px 50px 0px;
 	padding:0px;
 	text-align:center;
 	text-transform:uppercase;
+	font-size: 60px;
 }
-.about_company h1 span{
+.about_company h1 span, .about_company h2 span{
 	font-weight:700;
 	color:#2196f3;
 }
@@ -1621,15 +1622,16 @@ li.rev_higl{
 	background:#FFF;
 	padding:75px 0px;
 }
-.why_choose h1{
+.why_choose h1, .why_choose h2{
 	color:#000;
 	font-weight:300;
 	margin:0px 0px 50px 0px;
 	padding:0px;
 	text-align:center;
 	text-transform:uppercase;
+	font-size: 60px;
 }
-.why_choose h1 span{
+.why_choose h1 span, .why_choose h2 span{
 	font-weight:700;
 	color:#2196f3;
 }
@@ -1717,15 +1719,16 @@ li.rev_higl{
 	clear:both;
 	padding:50px 0px 0px 0px;
 }
-.best_watch h1{
+.best_watch h1, .best_watch h2{
 	color:#000;
 	font-weight:300;
 	margin:0px 0px 50px 0px;
 	padding:0px;
 	text-align:center;
 	text-transform:uppercase;
+	font-size: 60px;
 }
-.best_watch h1 span{
+.best_watch h1 span, .best_watch h2 span{
 	font-weight:700;
 	color:#2196f3;
 }
@@ -1950,15 +1953,16 @@ li.rev_higl{
 	clear:both;
 	padding:50px 0px 100px 0px;
 }
-.durable_long h1{
+.durable_long h1, .durable_long h2{
 	color:#000;
 	font-weight:300;
 	margin:0px;
 	padding:0px;
 	text-align:center;
 	text-transform:uppercase;
+	font-size: 60px;
 }
-.durable_long h1 span{
+.durable_long h1 span, .durable_long h2 span{
 	font-weight:700;
 	color:#2196f3;
 }
@@ -2182,15 +2186,16 @@ li.rev_higl{
 	clear:both;
 	padding:75px 0px;
 }
-.flexi_service h1{
+.flexi_service h1, .flexi_service h2{
 	color:#000;
 	font-weight:300;
 	margin:0px;
 	padding:0px;
 	text-align:center;
 	text-transform:uppercase;
+	font-size: 60px;
 }
-.flexi_service h1 span{
+.flexi_service h1 span, .flexi_service h2 span{
 	font-weight:700;
 	color:#2196f3;
 }
@@ -2336,15 +2341,16 @@ li.rev_higl{
 	clear:both;
 	padding:75px 0px;
 }
-.safty_health h1{
+.safty_health h1, .safty_health h3{
 	color:#000;
 	font-weight:300;
 	margin:0px;
 	padding:0px;
 	text-align:center;
 	text-transform:uppercase;
+	font-size: 60px;
 }
-.safty_health h1 span{
+.safty_health h1 span, .safty_health h3 span{
 	font-weight:700;
 	color:#2196f3;
 }
@@ -2389,7 +2395,7 @@ li.rev_higl{
   right:-30px;
   top:44%;
 }
-.safty_boxes h2{
+.safty_boxes h2, .safty_boxes h3{
 	color:#2196f3;
 	font-weight:700;
 	margin:0px;
@@ -2529,15 +2535,16 @@ li.rev_higl{
 	clear:both;
 	padding:75px 0px;
 }
-.price_performance h1{
+.price_performance h1, .price_performance h3{
 	color:#000;
 	font-weight:300;
 	margin:0px;
 	padding:0px;
 	text-align:center;
 	text-transform:uppercase;
+	font-size: 60px;
 }
-.price_performance h1 span{
+.price_performance h1 span, .price_performance h3 span{
 	font-weight:700;
 	color:#2196f3;
 }

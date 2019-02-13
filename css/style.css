@@ -191,7 +191,7 @@ a, a:hover, a:focus {
 	padding:200px 0px 150px 0px;
 }
 
-#banner h2 {
+#banner h2, #banner h1  {
 	color:#fff;
 	font-size:43px;
 	font-weight:600;
@@ -227,7 +227,7 @@ img.fullwidth {
 	padding:80px 0px 30px 0px;
 }
 
-#info h3 {
+#info h3, #info h2 {
 	color:#0a162c;
 	font-size:30px;
 	font-weight:600;
@@ -267,7 +267,7 @@ img.fullwidth {
 	margin:60px 0px 50px 0px;
 }
 
-#info h4 {
+#info h4, #info h2 {
 	color:#282828;
 	font-size:33px;
 	font-weight:300;
@@ -275,7 +275,7 @@ img.fullwidth {
 	margin-bottom:20px;
 }
 
-#info h4 span {
+#info h4 span, #info h2 span {
 	color:#2196f3;
 	font-weight:bold;
 }
@@ -351,7 +351,7 @@ img.fullwidth {
 #company {
 }
 
-#company h4 {
+#company h4, #company h3 {
 	color:#282828;
 	font-size:33px;
 	font-weight:300;
@@ -359,7 +359,7 @@ img.fullwidth {
 	margin-bottom:30px;
 }
 
-#company h4 span {
+#company h4 span, #company h3 span {
 	color:#2196f3;
 	font-weight:bold;
 }
@@ -516,7 +516,7 @@ img.fullwidth {
 	padding-bottom:50px;
 }
 
-#client h4 {
+#client h4, #client h3 {
     color: #282828;
     font-size: 33px;
     font-weight: 300;
@@ -524,7 +524,7 @@ img.fullwidth {
     margin-bottom: 30px;
 }
 
-#client h4 span {
+#client h4 span, #client h3 span {
     color: #2196f3;
     font-weight: bold;
 }
@@ -541,7 +541,7 @@ img.fullwidth {
 	padding:20px 0px 50px 0px;
 }
 
-#footer h3 {
+#footer h3, #footer h4 {
     color: #fff;
     font-size: 22px;
     font-weight:bold;
@@ -752,7 +752,7 @@ ul.bxslider {
 	padding:30px 0px;
 }
 
-#info-title h2 {
+#info-title h2, #info-title h1 {
 	color:#acacac;
 	font-size:101px;
 	font-weight:bold;
@@ -777,7 +777,7 @@ ul.bxslider {
 	
 }
 
-#manage h4 {
+#manage h4, #manage h2 {
     color: #282828;
     font-size: 38px;
     font-weight: bold;
@@ -785,7 +785,7 @@ ul.bxslider {
     margin-bottom: 40px;
 }
 
-#manage h4 span {
+#manage h4 span, #manage h2 span {
     color: #2196f3;
     font-weight: 300;
 }
@@ -864,13 +864,13 @@ ul.bxslider {
 	padding:0px;
 }
 
-#company.about h4 {
+#company.about h4, #company.about h2 {
     font-size: 38px;
 	font-weight:bold;
 	margin:45px 0px 30px 0px;
 }
 
-#company.about h4 span {
+#company.about h4 span, #company.about h2 span {
 	font-weight:300;
 }
 
@@ -1332,7 +1332,7 @@ video {
 }
 
 
-#videos-list h1 {
+#videos-list h1, #videos-list h3 {
 	color: #282828;
     font-size: 33px;
     font-weight: 300;
@@ -1342,7 +1342,7 @@ video {
     text-align: center;
 }
 
-#videos-list h1 span {
+#videos-list h1 span, #videos-list h3 span {
     color: #2196f3;
     font-weight: bold;	
 }
