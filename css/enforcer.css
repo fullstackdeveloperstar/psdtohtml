@@ -187,7 +187,7 @@ h1{
 	padding:0px;
 	text-align:left;
 }
-.section1-left h3{
+.section1-left h3, .section1-left h1{
 	font-size:100px;
 	font-weight:700;
 	color:#262626;
@@ -195,7 +195,7 @@ h1{
 	padding:0px;
 	text-align:left;
 }
-.section1-left h3 span{
+.section1-left h3 span, .section1-left h1 span{
 	color:#002d42;
 }
 .section1-left p{
@@ -576,15 +576,16 @@ h1{
 	clear:both;
 	padding:50px 0px 75px 0px;
 }
-.section4 h1{
+.section4 h1, .section4 h2{
 	text-align:center;
 	color:#002d42;
 	padding:25px 0px;
 	margin:0px;
 	font-weight:700;
 	text-transform:uppercase;
+	font-size: 50px;
 }
-.section4 h1 span{
+.section4 h1 span, .section4 h2 span{
 	font-weight:300;
 }
 .section4-left{
@@ -697,15 +698,16 @@ h1{
 	background:#FFF;
 	padding:50px 15px 0px 15px;
 }
-.section5 h1{
+.section5 h1, .section5 h3{
 	text-align:center;
 	color:#282827;
 	padding:25px 0px;
 	margin:0px;
 	font-weight:700;
 	text-transform:uppercase;
+	font-size: 50px;
 }
-.section5 h1 span{
+.section5 h1 span, .section5 h3 span{
 	font-weight:300;
 }
 .section5-iner{
@@ -939,15 +941,16 @@ h1{
 	}
 }
 
-.section6 h1{
+.section6 h1, .section6 h2, .section6 h3{
 	text-align:center;
 	color:#000;
 	padding:25px 0px;
 	margin:0px;
 	font-weight:700;
 	text-transform:uppercase;
+	font-size: 50px;
 }
-.section6 h1 span{
+.section6 h1 span, .section6 h2 span, .section6 h3 span{
 	font-weight:300;
 }
 .section6-left{
@@ -1055,15 +1058,16 @@ h1{
 	background:#FFF;
 	padding:50px 0px 75px 0px;
 }
-.section7 h1{
+.section7 h1, .section7 h3{
 	text-align:center;
 	color:#282827;
 	padding:25px 0px;
 	margin:0px;
 	font-weight:700;
 	text-transform:uppercase;
+	font-size: 50px;
 }
-.section7 h1 span{
+.section7 h1 span, .section7 h3 span{
 	font-weight:300;
 }
 .section7-left{
